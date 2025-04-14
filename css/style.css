@@ -29,7 +29,7 @@ body {
     grid-area: intro;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     margin-top: 10%;
 }
 
@@ -37,9 +37,11 @@ body {
     display: grid;
     grid-template-areas: 
     "foto sobremim-texto";
-    margin-top: 10vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
     padding: 5%;
     gap: 10px;
+    
 }
 
 .foto > img{
@@ -58,4 +60,17 @@ body {
     padding: 5%;
     gap: 20px;
 }
+
+.habilidades{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5%;
+    gap: 10%;
+}
+
+.habilidadestexto{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}  
+
 
