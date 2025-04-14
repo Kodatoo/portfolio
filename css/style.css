@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #BFBFBF;
+    color: black;
+}
+
+
+.navbar-custom{ 
+    background-color: #A6A6A6;
+}
+.navbar-custom .nav-link:hover{
+    color: black;
+    transition: 0.4s ease;
+}
+
+.introdução{
+  display: grid;
+  grid-template-areas: 
+  "fotoperfil intro intro"; /* define como será distribuido o layout do container */
+  padding: 5%;
+  grid-template-columns: 1fr 2fr; /* imagem ocupa 1 parte, texto 2 */
+  gap: 20px;
+  align-items: center;
+  
+  
+}
+
+.fotoperfil > img{
+    grid-area: fotoperfil;
+    width: 85%;
+    border-radius: 4%;
+}
+
+.intro{
+    grid-area: intro;
+}
+
+.sobremim {
+    display: grid;
+    margin-top: 10vh;
+    padding: 5%;
+}
+
+.sobremim-texto > p{
+    text-align: justify;
+}
+
+.Currículo{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 5%;
+    gap: 20px;
+}
+
