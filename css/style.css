@@ -36,12 +36,15 @@ body {
     grid-template-areas: 
     "foto sobremim-texto";
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     padding: 5%;
     gap: 10px;
     
 }
 
+.foto{
+    grid-area: foto;
+}
 .foto > img{
     width: 85%;
     border-radius: 4%;
@@ -64,7 +67,7 @@ body {
     grid-template-columns: auto auto auto;
     padding: 5%;
     gap: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .habilidadestexto{
@@ -72,4 +75,17 @@ body {
     grid-column-end: 4;
 }  
 
+.Projetos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5%;
+}
 
+.texto-projeto{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.crows-imagem > img{
+    width: 70%;
+}
