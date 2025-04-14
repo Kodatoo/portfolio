@@ -16,23 +16,21 @@ body {
 .introdução{
   display: grid;
   grid-template-areas: 
-  "fotoperfil intro intro"; /* define como será distribuido o layout do container */
+   "intro intro"; /* define como será distribuido o layout do container */
   padding: 5%;
-  grid-template-columns: 1fr 2fr; /* imagem ocupa 1 parte, texto 2 */
   gap: 20px;
   align-items: center;
   
   
 }
 
-.fotoperfil > img{
-    grid-area: fotoperfil;
-    width: 85%;
-    border-radius: 4%;
-}
 
 .intro{
     grid-area: intro;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
 }
 
 .sobremim {
