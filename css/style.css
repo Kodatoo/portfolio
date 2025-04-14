@@ -35,9 +35,18 @@ body {
 
 .sobremim {
     display: grid;
+    grid-template-areas: 
+    "foto sobremim-texto";
     margin-top: 10vh;
     padding: 5%;
+    gap: 10px;
 }
+
+.foto > img{
+    width: 85%;
+    border-radius: 4%;
+}
+
 
 .sobremim-texto > p{
     text-align: justify;
