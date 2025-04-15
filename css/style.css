@@ -77,15 +77,22 @@ body {
 
 .Projetos{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "texto-projeto texto-projeto"
+    "crows-texto crows-imagem";
     padding: 5%;
+    gap: 15%;
 }
 
-.texto-projeto{
-    grid-column-start: 1;
-    grid-column-end: 4;
+.crows-texto{
+    grid-area: crows-texto;
+    text-align: justify;
+}
+
+.crows-imagem{
+    grid-area: crows-imagem;
 }
 
 .crows-imagem > img{
-    width: 70%;
+    width: 85%;
 }
