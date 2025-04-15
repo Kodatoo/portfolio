@@ -27,7 +27,7 @@ body {
     grid-area: intro;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     margin-top: 10%;
 }
 
@@ -104,3 +104,9 @@ body {
     gap: 10px;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
