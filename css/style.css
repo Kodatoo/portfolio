@@ -97,3 +97,10 @@ body {
 .crows-imagem > img{
     width: 100%;
 }
+
+.contato{
+    padding: 5%;
+    margin-top: 10%;
+    gap: 10px;
+}
+
