@@ -81,7 +81,8 @@ body {
     "texto-projeto texto-projeto"
     "crows-texto crows-imagem";
     padding: 5%;
-    gap: 15%;
+    gap: 10%;
+    margin-top: 15%;
 }
 
 .crows-texto{
@@ -94,5 +95,5 @@ body {
 }
 
 .crows-imagem > img{
-    width: 85%;
+    width: 100%;
 }
