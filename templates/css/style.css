@@ -77,10 +77,29 @@ body {
 
 .habilidades{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "habilidadestexto habilidadestexto habilidadestexto habilidadestexto"
+    "icone-html5 icone-css3 icone-python icone-github";
     padding: 5%;
     gap: 10%;
     margin-top: 5%;
+    
+}
+
+.icone-html5{
+    grid-area: icone-html5;
+}
+
+.icone-css3{
+    grid-area: icone-css3;
+}
+
+.icone-python{
+    grid-area: icone-python;
+}
+
+.icone-github{
+    grid-area: icone-github;
 }
 
 .habilidadestexto{
