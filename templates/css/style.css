@@ -1,23 +1,28 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #BFBFBF;
-    color: black;
+    background-color: #022859;
+    color: #fff;
 }
 
 
 .navbar-custom{ 
-    background-color: #A6A6A6;
+    background-color: black;
+}
+
+.navbar-custom .nav-link{
+    color: white;
 }
 .navbar-custom .nav-link:hover{
-    color: black;
+    color: whitesmoke;
     transition: 0.4s ease;
 }
+
 
 .introdução{
   display: grid;
   grid-template-areas: 
    "intro intro"; /* define como será distribuido o layout do container */
-  padding: 5%;
+  padding: 2%;
   gap: 20px;
   align-items: center;
 }
