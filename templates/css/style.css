@@ -148,11 +148,4 @@ body {
     margin-bottom: 5%;
 }
 
-.footer{
-    display: grid; 
-    grid-template-columns: auto auto auto;
-    background-color: black;
-    color: #fff;
-    margin-top: 10%;
-}
 
