@@ -159,3 +159,34 @@ body {
     font-size: 4vw;
     color: #fff;
 }
+
+.bxl-linkedin:visited {
+    color: #fff;
+}
+.bxl-linkedin:hover {
+    color: #047ec0;
+}
+
+.bxl-linkedin:active {
+    color: #205a79;
+}
+
+.bxl-gmail:visited {
+    color: #fff;
+}
+.bxl-gmail:hover {
+    color: #e44132;
+}
+.bxl-gmail:active {
+    color: #a11407;
+}
+
+.bxl-github:visited {
+    color: white;
+}
+.bxl-github:hover {
+    color: #a6a6a6;
+}
+.bxl-github:active {
+    color: #2d2d2d;
+}
