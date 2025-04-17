@@ -150,19 +150,9 @@ body {
 
 .footer{
     display: grid; 
+    grid-template-columns: auto auto auto;
     background-color: black;
     color: #fff;
     margin-top: 10%;
 }
 
-.linkedin{
-    grid-area: linkedin;
-}
-
-.github{
-    grid-area: github;
-}
-
-.direitos{
-    grid-area: direitos;
-}
