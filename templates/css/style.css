@@ -149,10 +149,20 @@ body {
 }
 
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    background-color: #262626;
-    color: white;
+    display: grid; 
+    background-color: black;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.linkedin{
+    grid-area: linkedin;
+}
+
+.github{
+    grid-area: github;
+}
+
+.direitos{
+    grid-area: direitos;
 }
