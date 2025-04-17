@@ -67,11 +67,11 @@ body {
     gap: 20px;
 }
 
-.item1> h2{
+.item1> article{
     margin-bottom: 5%;
 }
 
-.item2 > h2{
+.item2 > article{
     margin-bottom: 5%;
 }
 
