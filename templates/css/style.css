@@ -107,6 +107,10 @@ body {
     grid-column-end: 4;
 }  
 
+.habilidadestexto {
+    margin-bottom: 5%;
+}
+
 .Projetos{
     display: grid;
     grid-template-areas: 
