@@ -148,4 +148,14 @@ body {
     margin-bottom: 5%;
 }
 
+.contato{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    width: 100%;
+}
 
+.contato > a{
+    font-size: 4vw;
+    color: #fff;
+}
