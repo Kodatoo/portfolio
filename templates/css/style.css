@@ -70,6 +70,21 @@ body {
     gap: 20px;
 }
 
+.botão {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .botão:hover {
+    background-color: #0056b3;
+  }
+
 .item1> article{
     margin-bottom: 5%;
 }
