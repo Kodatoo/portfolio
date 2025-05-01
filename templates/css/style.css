@@ -5,6 +5,7 @@ body {
 }
 
 
+
 .navbar-custom{ 
     background-color: black;
 }
@@ -13,7 +14,7 @@ body {
     color: white;
 }
 .navbar-custom .nav-link:hover{
-    color: purple;
+    color: #8E1ED9;
     transition: 0.4s ease;
 }
 
@@ -28,6 +29,7 @@ body {
 }
 
 
+
 .intro{
     grid-area: intro;
     justify-content: center;
@@ -35,6 +37,7 @@ body {
     margin-bottom: 8%;
     margin-top: 10%;
 }
+
 
 .sobremim {
     display: grid;
