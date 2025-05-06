@@ -155,9 +155,16 @@ body {
     grid-area: crows-imagem;
 }
 
+.gif{
+    width: 50%;
+}
+
 .crows-imagem > img{
     width: 100%;
 }
+
+
+
 footer {
     background-color: black;
     padding: 2rem 0;
