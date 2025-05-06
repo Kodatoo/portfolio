@@ -140,6 +140,14 @@ body {
     margin-bottom: 15%;
 }
 
+.teste{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10%;
+    gap: 10%;
+}
+
+
 .crows-texto{
     grid-area: crows-texto;
     text-align: justify;
@@ -163,6 +171,9 @@ body {
     width: 100%;
 }
 
+#gif{
+    margin-top: 10%;
+}
 
 
 footer {
