@@ -248,6 +248,10 @@ footer {
       justify-items: center;
       text-align: center;
     }
+
+    .hardskills{
+        padding-bottom: 40%;
+    }
   
     .habilidadestexto {
       grid-column: auto;
