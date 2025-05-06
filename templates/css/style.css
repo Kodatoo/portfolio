@@ -235,30 +235,13 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .habilidades {
-      display: grid;
-      grid-template-areas:
-        "habilidadestexto"
-        "icone-html5"
-        "icone-css3"
-        "icone-python"
-        "icone-github";
-      gap: 20px;
-      padding: 5%;
-      justify-items: center;
-      text-align: center;
+    .habilidades{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
-    .hardskills{
-        padding-bottom: 40%;
-    }
-  
-    .habilidadestexto {
-      grid-column: auto;
-      margin-bottom: 20px;
-    }
-  
-    .habilidades img {
-      width: 50px; /* ou algo proporcional pra tela pequena */
+    .hardskils{
+        padding-bottom: 30%;
     }
   }
