@@ -245,6 +245,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+    .introdução{
+        margin-top: 5%;
+    }
     .sobremim{
         display: flex;
         flex-direction: column;
