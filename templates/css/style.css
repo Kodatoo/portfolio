@@ -6,31 +6,33 @@ body {
 
 
 
-.navbar-custom{ 
+.navbar-custom {
     background-color: black;
 }
 
-.navbar-custom .nav-link{
+.navbar-custom .nav-link {
     color: white;
 }
-.navbar-custom .nav-link:hover{
+
+.navbar-custom .nav-link:hover {
     color: #8E1ED9;
     transition: 0.4s ease;
 }
 
 
-.introdução{
-  display: grid;
-  grid-template-areas: 
-   "intro intro"; /* define como será distribuido o layout do container */
-  padding: 2%;
-  gap: 20px;
-  align-items: center;
+.introdução {
+    display: grid;
+    grid-template-areas:
+        "intro intro";
+    /* define como será distribuido o layout do container */
+    padding: 2%;
+    gap: 20px;
+    align-items: center;
 }
 
 
 
-.intro{
+.intro {
     grid-area: intro;
     justify-content: center;
     align-items: center;
@@ -41,29 +43,30 @@ body {
 
 .sobremim {
     display: grid;
-    grid-template-areas: 
-    "foto sobremim-texto";
+    grid-template-areas:
+        "foto sobremim-texto";
     margin-top: 10%;
     margin-bottom: 5%;
     padding: 5%;
     gap: 10px;
-    
+
 }
 
-.foto{
+.foto {
     grid-area: foto;
 }
-.foto > img{
+
+.foto>img {
     width: 85%;
     border-radius: 4%;
 }
 
 
-.sobremim-texto > p{
+.sobremim-texto>p {
     text-align: justify;
 }
 
-.Currículo{
+.Currículo {
     display: grid;
     grid-template-rows: auto auto;
     padding: 5%;
@@ -79,68 +82,68 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-  }
+}
 
-  .botão:hover {
+.botão:hover {
     background-color: #0056b3;
-  }
+}
 
-.item1> article{
+.item1>article {
     margin-bottom: 5%;
 }
 
-.item2 > article{
+.item2>article {
     margin-bottom: 5%;
 }
 
-.habilidades{
+.habilidades {
     display: grid;
-    grid-template-areas: 
-    "habilidadestexto habilidadestexto habilidadestexto habilidadestexto"
-    "icone-html5 icone-css3 icone-python icone-github";
+    grid-template-areas:
+        "habilidadestexto habilidadestexto habilidadestexto habilidadestexto"
+        "icone-html5 icone-css3 icone-python icone-github";
     padding: 5%;
     gap: 10%;
     margin-top: 5%;
-    
+
 }
 
-.icone-html5{
+.icone-html5 {
     grid-area: icone-html5;
 }
 
-.icone-css3{
+.icone-css3 {
     grid-area: icone-css3;
 }
 
-.icone-python{
+.icone-python {
     grid-area: icone-python;
 }
 
-.icone-github{
+.icone-github {
     grid-area: icone-github;
 }
 
-.habilidadestexto{
+.habilidadestexto {
     grid-column-start: 1;
     grid-column-end: 4;
-}  
+}
 
 .habilidadestexto {
     margin-bottom: 5%;
 }
 
-.Projetos{
+.Projetos {
     display: grid;
-    grid-template-areas: 
-    "texto-projeto texto-projeto"
-    "crows-texto crows-imagem";
+    grid-template-areas:
+        "texto-projeto texto-projeto"
+        "crows-texto crows-imagem";
     padding: 5%;
     gap: 10%;
     margin-top: 15%;
     margin-bottom: 15%;
 }
 
-.skills{
+.skills {
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 10%;
@@ -148,31 +151,31 @@ body {
 }
 
 
-.crows-texto{
+.crows-texto {
     grid-area: crows-texto;
     text-align: justify;
-    
+
 }
 
-.crows-texto > h3{
+.crows-texto>h3 {
     margin-bottom: 5%;
     margin-top: 5%;
 }
 
-.crows-imagem{
+.crows-imagem {
     grid-area: crows-imagem;
 }
 
-.gif{
+.gif {
     width: 50%;
 }
 
-.crows-imagem > img{
+.crows-imagem>img {
     width: 100%;
     margin: auto;
 }
 
-#gif{
+#gif {
     margin-top: 10%;
 }
 
@@ -183,23 +186,24 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
-    position: relative; /* importante! */
+    position: relative;
+    /* importante! */
     z-index: 10;
-  }
+}
 
 
-.contato > h2{
+.contato>h2 {
     margin-bottom: 5%;
 }
 
-.contato{
+.contato {
     display: flex;
     background-color: black;
     justify-content: space-around;
     width: 100%;
 }
 
-.contato > a{
+.contato>a {
     font-size: 4vw;
     color: #fff;
 }
@@ -207,6 +211,7 @@ footer {
 .bxl-linkedin:visited {
     color: #fff;
 }
+
 .bxl-linkedin:hover {
     color: #047ec0;
 }
@@ -218,9 +223,11 @@ footer {
 .bxl-gmail:visited {
     color: #fff;
 }
+
 .bxl-gmail:hover {
     color: #e44132;
 }
+
 .bxl-gmail:active {
     color: #a11407;
 }
@@ -228,26 +235,45 @@ footer {
 .bxl-github:visited {
     color: white;
 }
+
 .bxl-github:hover {
     color: #a6a6a6;
 }
+
 .bxl-github:active {
     color: #2d2d2d;
 }
 
 @media (max-width: 480px) {
-    .habilidades{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+    .habilidades {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* Para colocar os ícones em coluna */
+        grid-template-areas:
+            "habilidadestexto"
+            "icone-html5"
+            "icone-css3"
+            "icone-python"
+            "icone-github";
+        gap: 20px;
+        padding: 5%;
     }
 
-    .hardskils{
+    .habilidadestexto {
+        grid-area: habilidadestexto;
+        text-align: left;
+        /* Alinha o texto à esquerda no celular */
+        font-size: 1.2rem;
+        /* Ajuste o tamanho do texto para o celular */
+    }
+
+
+    .hardskils {
         padding-bottom: 30%;
     }
 
-    .Projetos{
+    .Projetos {
         display: flex;
         flex-direction: column;
     }
-  }
+}
