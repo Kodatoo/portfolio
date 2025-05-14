@@ -169,6 +169,7 @@ body {
 
 .crows-imagem > img{
     width: 100%;
+    margin: auto;
 }
 
 #gif{
@@ -243,5 +244,10 @@ footer {
 
     .hardskils{
         padding-bottom: 30%;
+    }
+
+    .Projetos{
+        display: flex;
+        flex-direction: column;
     }
   }
