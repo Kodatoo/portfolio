@@ -245,6 +245,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .sobremim{
+        display: flex;
+        flex-direction: column;
+    }
     .habilidades {
         display: grid;
         grid-template-columns: 1fr;
