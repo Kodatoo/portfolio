@@ -170,6 +170,7 @@ body {
     margin-top: 5%;
 }
 
+
 .crows-imagem {
     grid-area: crows-imagem;
 }
@@ -264,7 +265,6 @@ footer {
     .habilidades {
         display: grid;
         grid-template-columns: 1fr;
-        /* Para colocar os ícones em coluna */
         grid-template-areas:
             "habilidadestexto"
             "icone-html5"
@@ -278,9 +278,7 @@ footer {
     .habilidadestexto {
         grid-area: habilidadestexto;
         text-align: left;
-        /* Alinha o texto à esquerda no celular */
         font-size: 1.2rem;
-        /* Ajuste o tamanho do texto para o celular */
     }
 
 
